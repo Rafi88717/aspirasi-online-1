@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspirasi Online</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        textarea {
+            resize: none;
+        }
+    </style>
+</head>x
+<body>
+    <section class="text-gray-600 body-font">
+      <form id="contact-form"action="https://formspree.io/f/xvgoqryk" method="post">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900">Aspirasi Online</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Kata-kata</p>
+          </div>
+          <div class="lg:w-2/3 w-full mx-auto px-8">
+            <div class="relative flex-grow w-full">
+              <label for="Masukkan Aspirasi Anda" class="leading-7 text-sm text-gray-600">Masukkan Aspirasi Anda</label>
+              <textarea id="Masukkan Aspirasi Anda" name="Masukkan Aspirasi Anda" rows="6" class="w-full bg-white bg-opacity-50 rounded border border-gray-400 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+            <button type="sumbit" class="mt-3 w-full text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Kirim</button>
+          </div>
+        </div>
+      </form>
+    </section>
+</body>
+</html>
